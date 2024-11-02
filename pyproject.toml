@@ -6,10 +6,11 @@ authors = ["shinkeonkim <singun11@kookmin.ac.kr>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.13"
+python = ">=3.13,<3.14"
 pyqt5 = "^5.15.11"
 pypdf2 = "^3.0.1"
 pymupdf = "^1.24.13"
+pyinstaller = "^6.11.0"
 
 [tool.poetry.dev-dependencies]
 pre-commit = "^4.0.1"

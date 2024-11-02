@@ -16,3 +16,7 @@
 > poetry run pre-commit install
 > poetry run python main.py
 ```
+
+```bash
+> pyinstaller --noconfirm --onefile --windowed --add-data "app:app" --icon=icon.icns --name=fuck_pdf app/main.py
+```
