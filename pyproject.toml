@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "fuck-pdf"
+version = "0.1.0"
+description = ""
+authors = ["shinkeonkim <singun11@kookmin.ac.kr>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+pyqt5 = "^5.15.11"
+pypdf2 = "^3.0.1"
+pymupdf = "^1.24.13"
+
+[tool.poetry.dev-dependencies]
+pre-commit = "^4.0.1"
+black = "^24.10.0"
+flake8 = "^7.1.1"
+isort = "^5.9.3"
+mypy = "^1.8.0"
+autoflake = "^2.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
